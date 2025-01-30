@@ -1,0 +1,21 @@
+{
+  "name": "My Ruleset",
+  "predicate": "all",
+  "rules": [
+    {
+      "name": "Important Emails",
+      "conditions": [
+        {
+          "field": "from",
+          "predicate": "contains",
+          "value": "sharon@happyfox.hire.trakstar.com"
+        }
+      ],
+      "actions": [
+        {
+          "action": "mark_as_unread"
+        }
+      ]
+    }
+  ]
+}
